@@ -10,7 +10,7 @@ flaskapiDeployment:
       dbName: flaskapi
     image:
       repository: igbedo/flaskapp
-      tag: latest
+      tag: 1.1.1 
     imagePullPolicy: Always
   replicas: 3
 flaskapiSecrets:
