@@ -1,0 +1,8 @@
+helm:
+  parameters:
+  - name: image.name
+    value: igbedo/flaskapp
+    forcestring: true
+  - name: image.tag
+    value: 1.1.2
+    forcestring: true
