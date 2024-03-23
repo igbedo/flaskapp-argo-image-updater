@@ -13,6 +13,7 @@ spec:
     repoURL: 'https://github.com/igbedo/flaskapp-argo-image-updater'
     path: .
     targetRevision: HEAD
+    chart: flaskapp
     path: staging/
   destination:
     server: 'https://kubernetes.default.svc'
