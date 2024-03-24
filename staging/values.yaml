@@ -14,7 +14,7 @@ flaskapiDeployment:
     imagePullPolicy: Always
   replicas: 3
 flaskapiSecrets:
-  dbRootPassword: ""
+  dbRootPassword: "admin"
 kubernetesClusterDomain: cluster.local
 mysql:
   mysql:
